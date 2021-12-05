@@ -1,0 +1,83 @@
+.navbar{
+    display: flex;
+    background-color: #975920;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#logo-img{
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    /* gap: 5%; */
+    font-size: 20px;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    transition: 900ms;
+    padding: 20px 30px;
+}
+
+.navbar nav a:hover {
+    background-color:  #f5deb373; 
+}
+
+#logo {
+    margin-left: 40px;
+
+}
+
+#home {
+    background-image: url(https://simply-delicious-food.com/wp-content/uploads/2018/11/holiday-dessert-board-3-500x375.jpg);
+    background-size: cover;
+    display: flex;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    height: 620px;
+}
+
+#home div {
+    width: 80%;
+    height: 50%;
+    background-color: #f5deb3ad;
+    margin: auto;
+    text-align: center;
+}
+
+#home h1 {
+    /* display: inline; */
+    color:#2d1115;
+    font-size: 80px;
+    /* background-color: rgba(255, 255, 255, 0.534); */
+}
+#home p {
+    /* display: inline; */
+    color: #2d1115;
+    font-size: 30px;
+    /* background-color: rgba(255, 255, 255, 0.534); */
+}
+
+#about div{
+display: flex;
+justify-content: space-around;
+
+}
+
+#about p {
+    width :40%;
+    font-size: 30px;
+}
+#about h1 {
+    text-align: center;
+    font-size: 50px;
+}
